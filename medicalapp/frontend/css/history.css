@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 30px;
+
+  font-family: Arial;
+
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #4f46e5;
+}
+
+.card {
+  padding: 20px;
+
+  margin-top: 20px;
+
+  border-radius: 15px;
+
+  background: #f5f5ff;
+
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  color: #4f46e5;
+}

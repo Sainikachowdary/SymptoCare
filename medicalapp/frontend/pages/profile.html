@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Profile</title>
+
+    <link rel="stylesheet" href="../css/profile.css" />
+  </head>
+
+  <body>
+    <div class="profile-container">
+      <h1>🏥 Complete Your Profile</h1>
+
+      <form id="profileForm">
+        <input type="text" id="name" placeholder="Full Name" required />
+
+        <label> Birthday </label>
+
+        <input type="date" id="birthday" required />
+
+        <label> Gender </label>
+
+        <select id="gender" required>
+          <option value="Male">Male</option>
+
+          <option value="Female">Female</option>
+
+          <option value="Other">Other</option>
+        </select>
+
+        <input type="number" id="age" placeholder="Age" required />
+
+        <input type="number" id="weight" placeholder="Weight (kg)" required />
+
+        <input type="number" id="height" placeholder="Height (cm)" required />
+
+        <button type="submit">Save Profile</button>
+      </form>
+    </div>
+
+    <script src="../js/profile.js"></script>
+  </body>
+</html>

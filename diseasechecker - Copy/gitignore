@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+venv_new/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual Environment
+venv_new/
+venv/
+.env/
+
+# Model files (optional - can include if small)
+model/*.pkl
+model/*.joblib
+
+# Data files (optional)
+data/*.json
+data/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Flask
+instance/
+.webassets-cache
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+config.py
+
+# Database
+*.db
+*.sqlite
+
+# OS files
+Thumbs.db
+Desktop.ini

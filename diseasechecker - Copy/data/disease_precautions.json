@@ -1,0 +1,74 @@
+{
+    "Fungal infection": [
+        "Keep affected area dry and clean",
+        "Use antifungal cream as prescribed",
+        "Avoid sharing personal items like towels",
+        "Wear loose-fitting cotton clothes"
+    ],
+    "Allergy": [
+        "Identify and avoid allergens",
+        "Take antihistamines as prescribed",
+        "Keep environment dust-free",
+        "Use air purifier if needed"
+    ],
+    "GERD": [
+        "Avoid spicy and fatty foods",
+        "Don't lie down immediately after eating",
+        "Elevate head while sleeping",
+        "Limit caffeine and alcohol"
+    ],
+    "Diabetes": [
+        "Monitor blood sugar regularly",
+        "Follow diabetic diet plan",
+        "Exercise for 30 minutes daily",
+        "Take medications on time"
+    ],
+    "COVID-19": [
+        "Isolate yourself immediately",
+        "Monitor oxygen levels with pulse oximeter",
+        "Stay hydrated and rest",
+        "Contact healthcare provider for symptoms"
+    ],
+    "Pneumonia": [
+        "Complete full antibiotic course",
+        "Get plenty of rest",
+        "Stay hydrated with warm fluids",
+        "Use humidifier for easier breathing"
+    ],
+    "Malaria": [
+        "Complete anti-malarial medication course",
+        "Use mosquito nets and repellents",
+        "Monitor fever pattern",
+        "Get regular blood tests"
+    ],
+    "Dengue": [
+        "Monitor platelet count regularly",
+        "Stay hydrated with ORS and fluids",
+        "Take paracetamol for fever (avoid NSAIDs)",
+        "Seek immediate care for bleeding"
+    ],
+    "Asthma": [
+        "Use rescue inhaler as prescribed",
+        "Avoid dust, smoke, and allergens",
+        "Identify and avoid triggers",
+        "Keep rescue medication accessible"
+    ],
+    "Migraine": [
+        "Rest in dark, quiet room",
+        "Apply cold compress to head",
+        "Stay hydrated",
+        "Identify and avoid triggers"
+    ],
+    "Hypertension": [
+        "Reduce salt intake",
+        "Exercise regularly",
+        "Manage stress with meditation",
+        "Take BP medications consistently"
+    ],
+    "Arthritis": [
+        "Gentle exercise like walking or swimming",
+        "Apply hot/cold packs for pain relief",
+        "Maintain healthy weight",
+        "Take anti-inflammatory medications"
+    ]
+}

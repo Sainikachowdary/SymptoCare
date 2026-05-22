@@ -1,0 +1,15 @@
+symptoms,disease
+itching,skin_rash,nodal_skin_eruptions,Fungal infection
+continuous_sneezing,shivering,chills,watering_from_eyes,Allergy
+stomach_pain,acidity,ulcers_on_tongue,vomiting,cough,chest_pain,GERD
+vomiting,loss_of_appetite,abdominal_pain,passage_of_gases,internal_itching,Peptic ulcer disease
+fatigue,weight_loss,restlessness,lethargy,irregular_sugar_level,blurred_and_distorted_vision,obesity,excessive_hunger,increased_appetite,Diabetes
+fever,cough,fatigue,loss_of_taste,loss_of_smell,COVID-19
+chest_pain,shortness_of_breath,cough_with_phlegm,fever,chills,Pneumonia
+high_fever,chills,sweating,headache,nausea,muscle_pain,Malaria
+high_fever,severe_headache,pain_behind_the_eyes,joint_pain,muscle_pain,rash,Dengue
+wheezing,shortness_of_breath,chest_tightness,coughing,Asthma
+frequent_urination,burning_urination,cloudy_urine,pelvic_pain,fever,Urinary Tract Infection
+headache,nausea,vomiting,sensitivity_to_light,sensitivity_to_sound,Migraine
+headache,shortness_of_breath,nosebleeds,flushing,dizziness,chest_pain,Hypertension
+joint_pain,joint_swelling,stiffness,warmth_around_joints,Arthritis
