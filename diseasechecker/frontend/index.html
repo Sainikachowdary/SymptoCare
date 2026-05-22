@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiseaseChecker - AI Symptom Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <span class="logo-icon">🏥</span>
+                <h1>DiseaseChecker</h1>
+            </div>
+            <p class="tagline">AI-Powered Medical Symptom Checker</p>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Symptom Input Section -->
+            <div class="input-section">
+                <h2>📝 Enter Your Symptoms</h2>
+                <div class="symptom-input-container">
+                    <div class="input-group">
+                        <input type="text" id="symptomInput" placeholder="Type a symptom (e.g., fever, cough, headache)"
+                            list="symptomSuggestions">
+                        <datalist id="symptomSuggestions"></datalist>
+                        <button id="addSymptomBtn" class="btn-primary">+ Add Symptom</button>
+                    </div>
+
+                    <div class="selected-symptoms" id="selectedSymptoms">
+                        <p class="placeholder">No symptoms added yet. Type symptoms above.</p>
+                    </div>
+
+                    <button id="predictBtn" class="btn-predict" disabled>🔍 Check Disease</button>
+                </div>
+            </div>
+
+            <!-- Results Section -->
+            <div class="results-section" id="resultsSection" style="display: none;">
+                <!-- Prediction Card -->
+                <div class="card prediction-card">
+                    <h2>🩺 Diagnosis Result</h2>
+                    <div class="prediction-disease" id="predictedDisease">-</div>
+                    <div class="confidence-meter">
+                        <div class="confidence-label">
+                            <span>Confidence Score</span>
+                            <span id="confidenceScore">0%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="confidenceFill" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div class="severity-advice" id="severityAdvice"></div>
+                </div>
+
+                <!-- Precautions Card -->
+                <div class="card precautions-card">
+                    <h2>📋 Precautions & Recommendations</h2>
+                    <ul class="precautions-list" id="precautionsList">
+                        <li>Loading precautions...</li>
+                    </ul>
+                </div>
+
+                <!-- Alternative Diseases Card -->
+                <div class="card alternatives-card">
+                    <h2>🔄 Alternative Possibilities</h2>
+                    <div id="alternativeDiseases"></div>
+                </div>
+
+                <!-- Doctor Warning -->
+                <div class="doctor-warning" id="doctorWarning" style="display: none;">
+                    ⚠️ <strong>Medical Disclaimer:</strong> This is an AI prediction. Please consult a healthcare
+                    professional for accurate diagnosis.
+                </div>
+            </div>
+
+            <!-- Loading Spinner -->
+            <div class="loading-spinner" id="loadingSpinner" style="display: none;">
+                <div class="spinner"></div>
+                <p>Analyzing symptoms...</p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>⚠️ This tool is for informational purposes only. Always consult a doctor.</p>
+            <p>Powered by Machine Learning | Trained on Real Medical Data</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
