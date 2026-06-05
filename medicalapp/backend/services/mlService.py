@@ -1,11 +1,10 @@
 import sys
 
 sys.path.append(
-r"C:\Users\dell\SymptocareML\diseasechecker - Copy"
+    r"C:\Users\Korlapati Meghana\symptocare\SymptoCare\medicalapp\backend"
 )
 
 from integration_api import DiseaseCheckerAPI
-
 api = DiseaseCheckerAPI()
 
 precautions_data = {
